@@ -1,0 +1,44 @@
+## Summary Response
+
+## DeepSeek Model
+
+
+🤖 Agent: Original Text: Spent the weekend exploring the coast, and the fresh sea air was exactly what I needed! It's amazing how a little time in nature can refresh your mind and spirit. Feeling recharged and ready for the week ahead. Anyone else love the ocean?
+
+Summary: Weekend getaway by the sea! 🌊 The salty breeze and waves were just what I needed to recharge. Feeling refreshed and ready to tackle the week. Who else loves the ocean? 🌅
+
+Model: openai/gpt-oss-20b
+
+Tokens Used: 53
+
+Cost: 0.000106
+
+👨‍🎓 You: An example ACDIMA abstract would focus on the company's mission to foster the pharmaceutical industry in the Arab world through strategic investments, operational restructuring, and strategic partnerships. It might highlight a specific project, such as supporting the development of intravenous solution manufacturing in Libya, and the role of a centralized planning approach to enhance regional pharmaceutical capacity and achieve sustainable economic growth for affiliated companies and shareholders.
+
+🤖 Agent: Original Text: An example ACDIMA abstract would focus on the company's mission to foster the pharmaceutical industry in the Arab world through strategic investments, operational restructuring, and strategic partnerships. It might highlight a specific project, such as supporting the development of intravenous solution manufacturing in Libya, and the role of a centralized planning approach to enhance regional pharmaceutical capacity and achieve sustainable economic growth for affiliated companies and shareholders.
+
+Summary: <think> Okay, so I've got this query to handle. The user is asking me to act as a multi-style AI summarizer. My task is to detect the category of the provided text and then generate a summary in the appropriate style. The categories are News Article, Academic Abstract, Social Media Post, Technical Documentation, and Creative Writing.
+
+First, I need to read the user's text carefully. Let me look at it again: It's talking about an example ACDIMA abstract focusing on the company's mission in the pharmaceutical industry in the Arab world. It mentions strategic investments, operational restructuring, partnerships, a specific project in Libya, centralized planning, and sustainable growth.
+
+Hmm, the structure here feels formal and concise. It's discussing a company's strategic moves and a specific project. The mention of an abstract suggests it's a summary of a larger work or presentation. So, I'm thinking this is likely an Academic Abstract. It fits because it's summarizing key points of a company's strategy and initiatives, which is typical in academic or professional papers.
+
+Now, I need to write the summary in the style of an Academic Abstract. That means it should be clear, concise, and include the main points without being too verbose. I'll start by stating the company's mission, then mention the strategies they're using. I should include the specific project example and the outcome, which is sustainable growth.
+
+Let me structure it: First sentence introduces ACDIMA's mission and strategies. Second sentence gives the example project and the approach. Third sentence ties it all together, showing the positive impact on the region and stakeholders.
+
+I should make sure the language is formal but straightforward, avoiding jargon that's too technical. It should be understandable to someone familiar with the pharmaceutical industry but not necessarily an expert in every detail.
+
+Wait, did I include all the key elements from the original text? Let me check: mission, strategies (investments, restructuring, partnerships), specific project in Libya, centralized planning, and sustainable growth. Yes, that's all covered.
+
+I think that's a solid summary. It captures the essence of the abstract without adding extra information. It's concise and fits the academic style. </think>
+
+Academic Abstract
+
+This abstract outlines ACDIMA's mission to strengthen the pharmaceutical industry in the Arab world through strategic investments, operational restructuring, and partnerships. It highlights a project supporting intravenous solution manufacturing in Libya and emphasizes the role of centralized planning in enhancing regional pharmaceutical capacity. These efforts aim to achieve sustainable economic growth for affiliated companies and shareholders.
+
+Model: deepseek-r1-distill-llama-70b
+
+Tokens Used: 79
+
+Cost: 0.000158

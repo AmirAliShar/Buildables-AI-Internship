@@ -1,0 +1,13 @@
+ ## AI summarizer Response -->
+
+ ## OpenAI Model
+ 
+ Agent: Original Text: Spent the weekend exploring the coast, and the fresh sea air was exactly what I needed! It's amazing how a little time in nature can refresh your mind and spirit. Feeling recharged and ready for the week ahead. Anyone else love the ocean?
+
+Summary: Weekend getaway by the sea! 🌊 The salty breeze and waves were just what I needed to recharge. Feeling refreshed and ready to tackle the week. Who else loves the ocean? 🌅
+
+Model: openai/gpt-oss-20b
+
+Tokens Used: 53
+
+Cost: 0.000106
