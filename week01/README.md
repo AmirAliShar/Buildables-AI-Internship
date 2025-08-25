@@ -1,6 +1,6 @@
 🧠 AI Text Generation App
 
-This project is a simple AI-powered text generation application built with FastAPI (backend) and Streamlit (frontend). It allows users to input text and receive responses in different writing styles such as:
+This project is a simple AI-powered text generation application built with FastAPI (backend) and Streamlit (frontend). It allows users to input text and receive responses in different writing styles, such as:
 
 📄 News Article
 
@@ -20,7 +20,7 @@ Streamlit Frontend – Simple and interactive UI for testing.
 
 LLM Token & Cost Info – Get tokens used and approximate cost for generation.
 
-Environment Variables – API keys are stored securely with .env.
+Environment Variables – API keys are stored securely in the .env file.
 
 🛠️ Installation
 
@@ -32,10 +32,13 @@ cd your-repo-na
 Create and activate a virtual environment:
 
 python -m venv venv
+
 source venv/bin/activate   # On macOS/Linux
+
 venv\Scripts\activate      # On Windows
 
-Install dependencies 
+Install dependencie
+s 
 pip install -r requirements.txt
 
 
@@ -90,3 +93,4 @@ Resposne
   "tokens": 142,
   "cost": 0.0012
 }
+
