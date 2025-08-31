@@ -51,6 +51,12 @@ Using the Prompt Comparison Rubric, the same query “Explain photosynthesis sim
 | **Creative**     | Delivered an imaginative story with a plant named “Phil” (highly aligned).        | 88         |
 | **Technical**    | Produced a detailed step-by-step breakdown with chemical equations.               | 95         |
 
+| Persona      | Clarity | Specificity | Consistency | Effectiveness | Total | Rating    |
+| ------------ | ------- | ----------- | ----------- | ------------- | ----- | --------- |
+| Professional | 16      | 14          | 12          | 13            | 55    | Poor      |
+| Creative     | 22      | 19          | 23          | 24            | 88    | Excellent |
+| Technical    | 23      | 25          | 24          | 23            | 95    | Excellent |
+
 
 # Insights:
 
