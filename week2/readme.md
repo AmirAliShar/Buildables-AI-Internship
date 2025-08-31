@@ -68,9 +68,12 @@ Clearer instructions (e.g., word limit, style guide) improve consistency and eff
 
 # ✅ Evaluation Criteria
 
-✔️ Functionality – Chat works correctly with persona selection
-✔️ Code Quality – Clean, structured, and error-handled
-✔️ Prompt Engineering – Demonstrated prompt variations and analysis
+✔️ Functionality – Chat works correctly with persona selection  
+
+✔️ Code Quality – Clean, structured, and error-handled  
+
+✔️ Prompt Engineering – Demonstrated prompt variations and analysis  
+
 ✔️ Documentation – Clear setup, screenshots, rubric evaluation, and reflection
 
 # 👨‍💻 Author: Amir Ali
