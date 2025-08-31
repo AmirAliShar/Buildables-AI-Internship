@@ -29,8 +29,17 @@ for streamlit
 streamlit run frontend.py
 
 # 📸 Screenshots
+**Example outputs for the question: “Explain photosynthesis simply.**
+**Professional**
 
 <img width="1919" height="873" alt="Screenshot 2025-08-31 231817" src="https://github.com/user-attachments/assets/a7577ba2-7f64-42d1-b0a2-f158b3f3687e" />
+
+**Creative**
+<img width="1907" height="807" alt="Screenshot 2025-08-31 231942" src="https://github.com/user-attachments/assets/40ceb268-62e1-4bd7-818d-c57a2dd22b01" />
+
+**Technical**
+<img width="1919" height="823" alt="Screenshot 2025-08-31 232051" src="https://github.com/user-attachments/assets/72f0dd65-bd49-4414-956f-83e9b81c9c6c" />
+
 
 # 📊 Prompt Evaluation Summary
 
