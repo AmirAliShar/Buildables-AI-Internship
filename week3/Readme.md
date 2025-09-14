@@ -114,11 +114,10 @@ Task	Method	Correctness	Reasoning Clarity	Completeness	Conciseness	Score/12
 | Math          | CoT       | 3           | 3                 | 3            | 2           | **11**   |  
 | Reasoning     | Zero-Shot | 3           | 0                 | 2            | 3           | **8**    |  
 | Reasoning     | Few-Shot  | 3           | 2                 | 3            | 3           | **11**   | 
-
 | Reasoning     | CoT       | 3           | 3                 | 3            | 2           | **11**   |  
  
 
-6. Observations & Insights
+#6. Observations & Insights
 
 Zero-Shot: Best for quick, simple tasks (translation, classification). Weak in reasoning-heavy puzzles.
 
@@ -136,4 +135,4 @@ Q2. Did the CoT prompts improve reasoning quality?
 
 
 Q3. How much do examples influence the model’s responses?  
-➡ Examples had a big influence: Few-Shot made the model more consistent and avoided shortcuts. It helped in tasks like summarization where Zero-Shot was too brief.
+➡ Examples had a big influence: Few-Shot made the model more consistent and avoided shortcuts. It helped in tasks like summarization, where Zero-Shot was too brief.
