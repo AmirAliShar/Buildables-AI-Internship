@@ -91,30 +91,32 @@ Output: Step-by-step multiplication → 40 liters
 
 4. Rubric-Based Evaluation
 Task	Method	Correctness	Reasoning Clarity	Completeness	Conciseness	Score/12
-| Task          | Method    | Correctness | Reasoning Clarity | Completeness | Conciseness | Score/12 |
-| ------------- | --------- | ----------- | ----------------- | ------------ | ----------- | -------- |
-| Translation   | Zero-Shot | 3           | 0                 | 3            | 3           | **9**    |
-| Translation   | Few-Shot  | 3           | 2                 | 3            | 3           | **11**   |
-| Translation   | CoT       | 3           | 3                 | 3            | 2           | **11**   |
-| Summarization | Zero-Shot | 3           | 0                 | 2            | 3           | **8**    |
-| Summarization | Few-Shot  | 2           | 2                 | 2            | 3           | **9**    |
-| Summarization | CoT       | 3           | 3                 | 3            | 2           | **11**   |
-| Sentiment     | Zero-Shot | 3           | 0                 | 3            | 3           | **9**    |
-| Sentiment     | Few-Shot  | 3           | 2                 | 3            | 3           | **11**   |
-| Sentiment     | CoT       | 3           | 3                 | 3            | 2           | **11**   |
-| Puzzle 1      | Zero-Shot | 3           | 0                 | 3            | 3           | **9**    |
-| Puzzle 1      | Few-Shot  | 3           | 2                 | 3            | 3           | **11**   |
-| Puzzle 1      | CoT       | 3           | 3                 | 3            | 2           | **11**   |
-| Puzzle 2      | Zero-Shot | 2           | 1                 | 2            | 2           | **7**    |
-| Puzzle 2      | Few-Shot  | 3           | 3                 | 3            | 2           | **11**   |
-| Puzzle 2      | CoT       | 3           | 3                 | 3            | 2           | **11**   |
-| Math          | Zero-Shot | 3           | 0                 | 3            | 3           | **9**    |
-| Math          | Few-Shot  | 3           | 2                 | 3            | 3           | **11**   |
-| Math          | CoT       | 3           | 3                 | 3            | 2           | **11**   |
-| Reasoning     | Zero-Shot | 3           | 0                 | 2            | 3           | **8**    |
-| Reasoning     | Few-Shot  | 3           | 2                 | 3            | 3           | **11**   |
-| Reasoning     | CoT       | 3           | 3                 | 3            | 2           | **11**   |
 
+| Task          | Method    | Correctness | Reasoning Clarity | Completeness | Conciseness | Score/12 |  
+| ------------- | --------- | ----------- | ----------------- | ------------ | ----------- | -------- |  
+| Translation   | Zero-Shot | 3           | 0                 | 3            | 3           | **9**    |  
+| Translation   | Few-Shot  | 3           | 2                 | 3            | 3           | **11**   |  
+| Translation   | CoT       | 3           | 3                 | 3            | 2           | **11**   |  
+| Summarization | Zero-Shot | 3           | 0                 | 2            | 3           | **8**    |  
+| Summarization | Few-Shot  | 2           | 2                 | 2            | 3           | **9**    |  
+| Summarization | CoT       | 3           | 3                 | 3            | 2           | **11**   |  
+| Sentiment     | Zero-Shot | 3           | 0                 | 3            | 3           | **9**    |  
+| Sentiment     | Few-Shot  | 3           | 2                 | 3            | 3           | **11**   |  
+| Sentiment     | CoT       | 3           | 3                 | 3            | 2           | **11**   |  
+| Puzzle 1      | Zero-Shot | 3           | 0                 | 3            | 3           | **9**    |  
+| Puzzle 1      | Few-Shot  | 3           | 2                 | 3            | 3           | **11**   |  
+| Puzzle 1      | CoT       | 3           | 3                 | 3            | 2           | **11**   |  
+| Puzzle 2      | Zero-Shot | 2           | 1                 | 2            | 2           | **7**    |  
+| Puzzle 2      | Few-Shot  | 3           | 3                 | 3            | 2           | **11**   |  
+| Puzzle 2      | CoT       | 3           | 3                 | 3            | 2           | **11**   |  
+| Math          | Zero-Shot | 3           | 0                 | 3            | 3           | **9**    |  
+| Math          | Few-Shot  | 3           | 2                 | 3            | 3           | **11**   |  
+| Math          | CoT       | 3           | 3                 | 3            | 2           | **11**   |  
+| Reasoning     | Zero-Shot | 3           | 0                 | 2            | 3           | **8**    |  
+| Reasoning     | Few-Shot  | 3           | 2                 | 3            | 3           | **11**   | 
+
+| Reasoning     | CoT       | 3           | 3                 | 3            | 2           | **11**   |  
+ 
 
 6. Observations & Insights
 
