@@ -91,28 +91,32 @@ Output: Step-by-step multiplication → 40 liters
 
 4. Rubric-Based Evaluation
 Task	Method	Correctness	Reasoning Clarity	Completeness	Conciseness	Score/12
-Translation	Zero-Shot	3	0	3	3	9
-Translation	Few-Shot	3	2	3	3	11
-Translation	CoT	3	3	3	2	11
-Summarization	Zero-Shot	3	0	2	3	8
-Summarization	Few-Shot	2	2	2	3	9
-Summarization	CoT	3	3	3	2	11
-Sentiment	Zero-Shot	3	0	3	3	9
-Sentiment	Few-Shot	3	2	3	3	11
-Sentiment	CoT	3	3	3	2	11
-Puzzle 1	Zero-Shot	3	0	3	3	9
-Puzzle 1	Few-Shot	3	2	3	3	11
-Puzzle 1	CoT	3	3	3	2	11
-Puzzle 2	Zero-Shot	2	1	2	2	7
-Puzzle 2	Few-Shot	3	3	3	2	11
-Puzzle 2	CoT	3	3	3	2	11
-Math	Zero-Shot	3	0	3	3	9
-Math	Few-Shot	3	2	3	3	11
-Math	CoT	3	3	3	2	11
-Reasoning	Zero-Shot	3	0	2	3	8
-Reasoning	Few-Shot	3	2	3	3	11
-Reasoning	CoT	3	3	3	2	11
-5. Observations & Insights
+| Task          | Method    | Correctness | Reasoning Clarity | Completeness | Conciseness | Score/12 |
+| ------------- | --------- | ----------- | ----------------- | ------------ | ----------- | -------- |
+| Translation   | Zero-Shot | 3           | 0                 | 3            | 3           | **9**    |
+| Translation   | Few-Shot  | 3           | 2                 | 3            | 3           | **11**   |
+| Translation   | CoT       | 3           | 3                 | 3            | 2           | **11**   |
+| Summarization | Zero-Shot | 3           | 0                 | 2            | 3           | **8**    |
+| Summarization | Few-Shot  | 2           | 2                 | 2            | 3           | **9**    |
+| Summarization | CoT       | 3           | 3                 | 3            | 2           | **11**   |
+| Sentiment     | Zero-Shot | 3           | 0                 | 3            | 3           | **9**    |
+| Sentiment     | Few-Shot  | 3           | 2                 | 3            | 3           | **11**   |
+| Sentiment     | CoT       | 3           | 3                 | 3            | 2           | **11**   |
+| Puzzle 1      | Zero-Shot | 3           | 0                 | 3            | 3           | **9**    |
+| Puzzle 1      | Few-Shot  | 3           | 2                 | 3            | 3           | **11**   |
+| Puzzle 1      | CoT       | 3           | 3                 | 3            | 2           | **11**   |
+| Puzzle 2      | Zero-Shot | 2           | 1                 | 2            | 2           | **7**    |
+| Puzzle 2      | Few-Shot  | 3           | 3                 | 3            | 2           | **11**   |
+| Puzzle 2      | CoT       | 3           | 3                 | 3            | 2           | **11**   |
+| Math          | Zero-Shot | 3           | 0                 | 3            | 3           | **9**    |
+| Math          | Few-Shot  | 3           | 2                 | 3            | 3           | **11**   |
+| Math          | CoT       | 3           | 3                 | 3            | 2           | **11**   |
+| Reasoning     | Zero-Shot | 3           | 0                 | 2            | 3           | **8**    |
+| Reasoning     | Few-Shot  | 3           | 2                 | 3            | 3           | **11**   |
+| Reasoning     | CoT       | 3           | 3                 | 3            | 2           | **11**   |
+
+
+6. Observations & Insights
 
 Zero-Shot: Best for quick, simple tasks (translation, classification). Weak in reasoning-heavy puzzles.
 
@@ -122,11 +126,12 @@ CoT: Gave the best reasoning clarity (especially for puzzles & summarization). S
 
 6. Reflection Questions
 
-Q1. Which method gave the most accurate results?
+Q1. Which method gave the most accurate results?  
 ➡ Few-Shot and CoT both outperformed Zero-Shot. CoT was best for reasoning-heavy tasks, Few-Shot for structured answers.
 
-Q2. Did the CoT prompts improve reasoning quality?
+Q2. Did the CoT prompts improve reasoning quality?  
 ➡ Yes ✅ CoT significantly improved reasoning by forcing the model to explain step-by-step, especially in logic puzzles and math.
 
-Q3. How much do examples influence the model’s responses?
+
+Q3. How much do examples influence the model’s responses?  
 ➡ Examples had a big influence: Few-Shot made the model more consistent and avoided shortcuts. It helped in tasks like summarization where Zero-Shot was too brief.
