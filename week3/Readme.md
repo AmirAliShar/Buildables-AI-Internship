@@ -1,4 +1,4 @@
-📑 Prompting Strategies Evaluation Report
+**📑 Prompting Strategies Evaluation Report**
 1. Zero-Shot Prompts & Outputs
 Benchmark Questions
 
@@ -29,7 +29,7 @@ Reasoning Task
 Prompt: Farmer has 5 cows, each produces 8 liters/day. How much total milk?
 Answer: 40 liters
 
-2. Few-Shot Prompts & Outputs
+**2. Few-Shot Prompts & Outputs**
 Benchmark Questions
 
 Prompt: Translate "Good morning, how are you?" into French
@@ -59,7 +59,7 @@ Reasoning Task
 Prompt: Farmer milk problem
 Answer: Step-by-step → 40 liters
 
-3. Chain-of-Thought (CoT) Prompts & Outputs
+**3. Chain-of-Thought (CoT) Prompts & Outputs**
 Benchmark Questions
 
 Prompt: Translate "Good morning, how are you?"
@@ -89,7 +89,7 @@ Reasoning Task
 Prompt: Farmer milk problem
 Output: Step-by-step multiplication → 40 liters
 
-4. Rubric-Based Evaluation
+**4. Rubric-Based Evaluation**
 Task	Method	Correctness	Reasoning Clarity	Completeness	Conciseness	Score/12
 
 | Task          | Method    | Correctness | Reasoning Clarity | Completeness | Conciseness | Score/12 |  
@@ -117,7 +117,7 @@ Task	Method	Correctness	Reasoning Clarity	Completeness	Conciseness	Score/12
 | Reasoning     | CoT       | 3           | 3                 | 3            | 2           | **11**   |  
  
 
-#6. Observations & Insights
+**6. Observations & Insights**
 
 Zero-Shot: Best for quick, simple tasks (translation, classification). Weak in reasoning-heavy puzzles.
 
@@ -125,7 +125,7 @@ Few-Shot: Improved consistency and step-by-step answers in math and reasoning ta
 
 CoT: Gave the best reasoning clarity (especially for puzzles & summarization). Sometimes verbose but most logical.
 
-6. Reflection Questions
+**7. Reflection Questions**
 
 Q1. Which method gave the most accurate results?  
 ➡ Few-Shot and CoT both outperformed Zero-Shot. CoT was best for reasoning-heavy tasks, Few-Shot for structured answers.
