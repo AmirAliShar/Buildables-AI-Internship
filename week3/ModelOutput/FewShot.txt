@@ -1,0 +1,56 @@
+benchmark-questions
+Question: "Translate 'Good morning, how are you?' into French"
+OutPut --> Bonjour, comment allez-vous?
+
+Question:--> Summarize the text: 'The stock market rose today due to gains in the technology sector.'
+OutPut: --> The stock market went up today.
+
+Question: --> "Classify the sentiment: 'I am extremely happy with the service.'"
+OutPut --> Positive
+
+logic-puzzles
+
+Puzzle: --> "Alice is older than Bob. Bob is older than Charlie. Who is the youngest?"
+Answer --> Charlie
+
+Puzzle:-> "There are three boxes: one with apples, one with oranges, one mixed. All are mislabeled. You can take one fruit from one box. How do you correctly label all?"
+Answer -->
+To solve this, let's consider the steps:
+
+1. Take one fruit from the box labeled "apples". 
+   - If it's an apple, then this box can't be "apples" because all boxes are mislabeled, so it must be the mixed box. 
+   - If it's an orange, then this box can't be "apples", so it could be either "oranges" or "mixed". But since we know all are mislabeled, if it's an orange, this box must be "mixed" because the "oranges" box would have to have something other than an orange to be mislabeled.
+   - If you pick a fruit that is not an apple from the "apples" box, you know the "apples" box is actually the mixed box because it contains a fruit other than an apple.
+
+Let's assume you picked an orange from the "apples" box. This means the "apples" box is actually mixed.
+
+2. Now, go to the box labeled "oranges". 
+   - Since we've determined the "apples" box is mixed, and all boxes are mislabeled, the "oranges" box cannot be oranges (because then it would be correctly labeled). 
+   - So, if you take a fruit from the "oranges" box and it's an apple, then this box must actually be the "apples" box because it contains an apple, and we've already identified the mixed box.
+
+3. The remaining box, labeled "mixed", must then actually contain only one type of fruit, which would be oranges in this scenario, because the other two boxes have been identified as "mixed" and "apples", respectively.
+
+Therefore, by taking one fruit from one box, you can correctly label all boxes based on the process of elimination and the fact that all boxes are mislabeled. 
+
+Answer: You can correctly label all by taking one fruit, using the logic to determine which box is which based on the mislabeling and the type of fruit you picked.
+
+
+
+## Math Problem
+"problem": "A train travels 60 km in 1 hour. How far will it go in 4 hours?"
+Answer -->
+To find the distance the train will travel in 4 hours, we need to multiply the distance it travels in 1 hour by 4.
+
+Distance in 1 hour = 60 km
+Distance in 4 hours = 60 km * 4 = 240 km
+
+Answer: 240
+
+## Resoning Task
+
+Task --> A farmer has 5 cows, each produces 8 liters of milk per day. How much milk in total per day?
+Answer --> To find the total amount of milk produced per day, we need to multiply the number of cows by the amount of milk each cow produces.
+
+5 cows * 8 liters/cow = 40 liters
+
+Answer: 40
