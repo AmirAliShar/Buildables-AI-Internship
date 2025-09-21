@@ -6,13 +6,12 @@ Original Article Word Count: 130
 | Temperature | Summary Word Count | Score (1–10) | Observations                                                                     |
 | ----------- | ------------------ | ------------ | -------------------------------------------------------------------------------- |
 
-| 0.1         | 52                 | 9            | Very concise and accurate. Captures the main points but leaves out some context.
+| 0.1         | 52                 | 9            | Very concise and accurate. Captures the main points but leaves out some context. |
 
-|
-| 0.7         | 65                 | 8            | Balanced summary with good details. Slightly verbose but still relevant.  
-|
+| 0.7         | 65                 | 8            | Balanced summary with good details. Slightly verbose but still relevant.         |
 
 | 1.0         | 60                 | 8            | Covers most points and flows naturally. A bit less structured than 0.1.          |
+
 
 
 ## Conclusion:
