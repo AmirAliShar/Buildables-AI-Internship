@@ -4,7 +4,9 @@ Part 1: Summarization Task (Gemma Model)
 Original Article Word Count: 130
 
 | Temperature | Summary Word Count | Score (1–10) | Observations                                                                     |
+
 | ----------- | ------------------ | ------------ | -------------------------------------------------------------------------------- |
+
 
 | 0.1         | 52                 | 9            | Very concise and accurate. Captures the main points but leaves out some context. |
 
