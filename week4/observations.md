@@ -43,8 +43,26 @@ Use OpenAI for interactive Q&A, tutoring, or tasks where richer explanations are
 
 # What differences did you notice in cost, speed, or token limits between the models?
 
-Gemma (open-source) is more cost-effective and can be run locally or on cheaper infrastructure, though inference speed may depend on hardware.
+# 💸 Cost, Speed, and Token Limits
 
-OpenAI is faster and more reliable out of the box, but comes with higher usage costs and strict token limits depending on the subscription tier.
+**Gemma (via Groq):**
 
-In summary: Gemma is cheaper for bulk summarization, while OpenAI is better for production-ready Q&A where speed and accuracy matter.
+Cost: Free to use on Groq.
+
+Speed: Inference is reasonably fast, though can vary slightly depending on Groq’s server load.
+
+Token Limits: No strict published limits, but larger inputs may slow down processing. Works well for summarization tasks.
+
+**OpenAI OSS (via Groq):**
+
+Cost: Free to use on Groq as well.
+
+Speed: Often faster and more optimized on Groq’s hardware, making it better for real-time Q&A.
+
+Token Limits: Similar practical constraints as Gemma, though Groq manages token efficiency well. Handles structured outputs reliably.
+
+# Summary: Both models are free when accessed via Groq.
+
+Gemma is better suited for bulk summarization where cost efficiency and decent performance matter.
+
+OpenAI OSS performs better for interactive Q&A tasks where speed and accuracy are more important.
