@@ -1,43 +1,23 @@
 ## Observations
-Part 1: Summarization Task (Gemma Model)
 
 Original Article Word Count: 130
+| Task Type         | Model           | Temperature | Output Quality                    | Word Count | Score (/5)       | Notes                                     |
+| ----------------- | --------------- | ----------- | --------------------------------- | ---------- | ---------------- | ----------------------------------------- |
+| Summarization     | Gemma           | 0.1         | Concise, very factual             | 52         | 5                | Captured main points without extra info   |
+| Summarization     | Gemma           | 0.7         | Balanced, clear, slight expansion | 65         | 4                | Added some context, still accurate        |
+| Summarization     | Gemma           | 1.0         | Detailed, a bit verbose           | 60         | 4                | Still faithful, but more creative wording |
+| Q\&A              | OpenAI          | 0.1         | Direct yes/no                     | –          | 5                | Accurate, very short answer               |
+| Q\&A              | OpenAI          | 0.7         | Comprehensive, detailed           | –          | 4                | Added extra info beyond given article     |
+| Q\&A              | OpenAI          | 1.0         | Proactive, contextual             | –          | 4                | Correct but leaned on external knowledge  |
+| **Average Score** | **Gemma = 4.3** |             |                                   |            | **OpenAI = 4.3** | Both performed equally well overall       |
 
-| Task Type     | Model  | Temperature | Output Quality                    | Word Count | Score (/5) | Notes                                     |
-| ------------- | ------ | ----------- | --------------------------------- | ---------- | ---------- | ----------------------------------------- |
-| Summarization | Gemma  | 0.1         | Concise, very factual             | 52         | 5          | Captured main points without extra info   |
-| Summarization | Gemma  | 0.7         | Balanced, clear, slight expansion | 65         | 4          | Added some context, still accurate        |
-| Summarization | Gemma  | 1.0         | Detailed, a bit verbose           | 60         | 4          | Still faithful, but more creative wording |
-| Q\&A          | OpenAI | 0.1         | Direct yes/no                     | –          | 5          | Accurate, very short answer               |
-| Q\&A          | OpenAI | 0.7         | Comprehensive, detailed           | –          | 4          | Added extra info beyond given article     |
-| Q\&A          | OpenAI | 1.0         | Proactive, contextual             | –          | 4          | Correct but leaned on external knowledge  |
 
 
 ## Conclusion:
 Gemma produces accurate and concise summaries across temperatures. Lower temperature (0.1) is the most precise, while higher temperatures (0.7–1.0) add slight creativity and variation.
 
-##Part 2: Question Answering Task (OpenAI Model)
-
-| Temperature | Question Asked                            | Model Response                                           | Score (1–10) | Observations                                                                   |
-| ----------- | ----------------------------------------- | -------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------ |
-
-| 0.1         | *Is YouTube expanding monetization?*      | Yes.                                                     | 10           | Perfectly accurate and directly answers the question.                          |
-
-| 0.7         | *How can creators earn money by YouTube?* | Detailed list of monetization methods.                   | 9            | Very comprehensive, though it adds extra methods not mentioned in the article. |
-
-| 1.0         | *Can YouTube give proactive suggestions?* | Yes, with detailed explanation of recommendation system. | 9            | Correct and insightful, but goes beyond article scope.                         |
-
-## Conclusion:
 OpenAI is highly reliable for Q&A tasks. Lower temperatures provide concise, factual answers, while higher temperatures generate more detailed, creative, and sometimes extra-contextual responses.
 
-## Final Scoring Comparison
-
-| Model                     | Average Score | Strength                                                     |
-| ------------------------- | ------------- | ------------------------------------------------------------ |
-
-| **Gemma (Summarization)** | 8.3 / 10      | Concise and accurate summarization, best at low temperature. |
-
-| **OpenAI (Q\&A)**         | 9.3 / 10      | Excellent factual answers, detailed at higher temperatures.  |
 
 ## 💡 Discussion Points
 
