@@ -132,8 +132,4 @@ Multi-language support
 
 Enterprise knowledge management integration
 
-Contributor: Amir Ali
-
-Project: Buildables AI Internship - Week 5 Agent Solution  
-
-Repository: https://github.com/AmirAliShar/Buildables-AI-Internship/tree/main/Week-5-Agent-solution
+<img width="1915" height="859" alt="image" src="https://github.com/user-attachments/assets/8a7688ca-668d-4b47-96fb-9dbb54debea2" />
