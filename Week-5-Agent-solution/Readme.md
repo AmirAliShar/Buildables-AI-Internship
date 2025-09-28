@@ -1,4 +1,5 @@
 # ResearchRadar AI Agent - Intelligent News & Research Assistant
+<img width="1915" height="859" alt="image" src="https://github.com/user-attachments/assets/8a7688ca-668d-4b47-96fb-9dbb54debea2" />
 ## Problem Statement
 Professionals in AI, technology, and academia face significant information overload, spending 30-60 minutes daily manually searching across multiple sources like Dawn News, global tech news, and research papers. This fragmented approach leads to missed critical updates, inconsistent formatting, and productivity bottlenecks for researchers, entrepreneurs, and students who need to stay current with fast-moving developments.
 
@@ -132,4 +133,4 @@ Multi-language support
 
 Enterprise knowledge management integration
 
-<img width="1915" height="859" alt="image" src="https://github.com/user-attachments/assets/8a7688ca-668d-4b47-96fb-9dbb54debea2" />
+
