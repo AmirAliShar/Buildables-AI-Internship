@@ -1,0 +1,9 @@
+🤖 ResearchRadar Response:
+
+💼 Microsoft AI Projects
+
+• Microsoft Copilot expands to enterprises - AI assistant now available for Microsoft 365 enterprise customers with enhanced security and compliance features. (Source: Microsoft Blog, Sep 22, 2024)
+
+• Azure AI introduces new vision models - Computer vision services updated with improved object detection and image analysis capabilities for developers. (Source: TechCrunch, Sep 20, 2024)
+
+• GitHub Copilot adds new languages - AI pair programmer now supports 15 additional programming languages including Rust and Go. (Source: GitHub Blog, Sep 18, 2024)

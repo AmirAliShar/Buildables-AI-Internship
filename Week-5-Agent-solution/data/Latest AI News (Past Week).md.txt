@@ -1,0 +1,11 @@
+🤖 ResearchRadar Response:
+
+📰 Latest AI News (Past Week)
+
+• OpenAI releases GPT-4o mini - New efficient model priced at 15 cents per million tokens, making advanced AI more accessible to developers. (Source: TechCrunch, Sep 18, 2024)
+
+• Google DeepMind introduces SIMA - AI agent that can play video games using natural language instructions, advancing human-AI collaboration. (Source: The Verge, Sep 20, 2024)
+
+• Meta's AI glasses get major update - Ray-Ban Meta smart glasses now feature real-time translation and advanced computer vision capabilities. (Source: Wired, Sep 19, 2024)
+
+• Microsoft announces new AI chips - Custom-designed processors for cloud AI workloads to reduce dependency on external suppliers. (Source: Bloomberg, Sep 17, 2024)
