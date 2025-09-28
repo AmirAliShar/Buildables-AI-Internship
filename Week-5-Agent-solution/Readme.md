@@ -36,9 +36,9 @@ pip install -r requirements.txt
 
 ## Set up environment variables
 cp .env.example .env
-# Add your API keys to .env:
-# TAVILY_API_KEY=your_tavily_key
-# GOOGLE_API_KEY=your_gemini_key
+## Add your API keys to .env:
+## TAVILY_API_KEY=your_tavily_key
+## GOOGLE_API_KEY=your_gemini_key
 
 ## Running the Application
 
@@ -133,5 +133,7 @@ Multi-language support
 Enterprise knowledge management integration
 
 Contributor: Amir Ali
-Project: Buildables AI Internship - Week 5 Agent Solution
+
+Project: Buildables AI Internship - Week 5 Agent Solution  
+
 Repository: https://github.com/AmirAliShar/Buildables-AI-Internship/tree/main/Week-5-Agent-solution
