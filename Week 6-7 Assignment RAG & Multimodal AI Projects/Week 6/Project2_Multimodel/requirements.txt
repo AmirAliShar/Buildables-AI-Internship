@@ -1,0 +1,4 @@
+unstructured[all_docs]
+langchain
+langchain_google_genai
+python_dotenv
